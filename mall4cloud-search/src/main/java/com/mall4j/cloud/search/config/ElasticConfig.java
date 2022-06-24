@@ -17,6 +17,6 @@ public class ElasticConfig {
     public RestHighLevelClient restHighLevelClient() {
         return new RestHighLevelClient(
                 RestClient.builder(
-                        new HttpHost("mall4cloud-elasticsearch", 9200, "http")));
+                        new HttpHost("39.98.38.8", 9200, "http")));
     }
 }
